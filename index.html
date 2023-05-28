@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess What I Am</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white">
+  <div id="app" class="container mx-auto">
+    <div class="flex flex-col items-center">
+  <h1 class="text-4xl mb-8">Guess What I Am</h1>
+  <p id="riddle" class="text-xl mb-4"></p>
+  <input id="answer" class="bg-gray-200 text-black p-2 mb-4" type="text" placeholder="Your answer">
+  <div class="flex space-x-4">
+    <button id="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Submit</button>
+    <button id="skip" class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded">Skip</button>
+    <button id="hint" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Hint</button>
+    <button id="quit" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Quit</button>
+  </div>
+</div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
